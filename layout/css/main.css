@@ -23,7 +23,7 @@
 }
 
 .main-screen {
-    width: 78%;
+    width: 85%;
     background-color: #EBF2FF;
     height: 100%;
 }
@@ -35,9 +35,10 @@
 }
 .header__text_span {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 500;
     font-family: Poppins;
     line-height: 40px;
+    color: #757897;
 }
 .emozi {
     font-size: 15px;
@@ -72,6 +73,10 @@
 }
 .header_function_input_item {
     border-color:transparent;
+    color: #757897;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
 }
 .header__function_notifications {
     background-color: white;
@@ -102,16 +107,38 @@
 /*-------------------------MENU-------------------------------------------------------------------------- */
 
 .menu {
-    width: 22%;
+    width: 15%;
     background-color: white;
     height: 1022px;
     height: 100%;
+    margin-left: 38px;
+    margin-top: 43px;
 }
 .menu_logo {
     height: 28px;
     width: 142px;
-    margin-top: 43px;
-    margin-left: 38px;
+    margin-bottom: 81px;
+}
+
+.menu__items_button {
+    background-color: white;
+    color: #757897;
+    border: none;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+
+.menu__items_text {
+    margin-left: 12px;
+    font-size: 24px;
+    font-weight: 500;
+
+    font-family: Poppins;
+}
+.menu__items_logo {
+    font-size: 20px;
 }
 
 
