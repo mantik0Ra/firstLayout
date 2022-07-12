@@ -51,14 +51,51 @@
 .header_function {
     float: right;
 }
-.avatar {
-    
+.header__function_avatar {
+    background-color: white;
+    color: #051F61;
+    border: none;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+    margin-left: 11px;
 }
 
-.header__function_input {
-    border: 0;
+.header_function_input {
+    width: 335px;
+    height: 40px;
+    background-color: white;
+    display: inline-block;
     border-radius: 8px;
-    width: 100%;
+    vertical-align: top;
+    padding: 8px 16px;
 
+}
 
+.fa-solid.fa-magnifying-glass {
+    margin-right: 16px;
+}
+.header_function_input_item {
+    border-color: none;
+}
+.header__function_notifications {
+    background-color: white;
+    color: #051F61;
+    border: none;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+    margin-left: 11px;
+}
+.header__function_options {
+    background-color: white;
+    color: #051F61;
+    border: none;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+    margin-left: 11px;
 }
