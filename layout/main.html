@@ -10,39 +10,47 @@
 <body>
     <div class="container">
         <div class="menu">
-            <div class="menu_logo">
+            <div class="menu__logo">
                 <img class="menu_logo_item" src="C:\Users\kirya\OneDrive\Documents\GitHub\firstLayour\layout\img\Vector.svg" alt="logo">
                 <img class="menu_logo_name" src="C:\Users\kirya\OneDrive\Documents\GitHub\firstLayour\layout\img\DROPBOX.svg" alt="dropbox">
 
             </div>
             <div class="menu__items">
-                <button class="menu__items_button">
+                <button class="menu__items_button menu__items_button_hover_home">
                     <i class="fa-solid fa-house menu__items_logo"></i>
                     <span class="menu__items_text">Home</span>
                 </button>
-                <button class="menu__items_button">
+                <button class="menu__items_button menu__items_button_hover_myFiles">
                     <i class="fa-solid fa-folder menu__items_logo"></i>
                     <span class="menu__items_text">My Files</span>
                 </button>
-                <button class="menu__items_button">
+                <button class="menu__items_button menu__items_button_hover_starred">
                     <i class="fa-solid fa-star menu__items_logo"></i>
                     <span class="menu__items_text">Starred</span>
                 </button>
-                <button class="menu__items_button">
+                <button class="menu__items_button menu__items_button_hover_files">
                     <i class="fa-solid fa-file-export menu__items_logo"></i>
                     <span class="menu__items_text">Files Requests</span>
                 </button>
-                <button class="menu__items_button">
+                <button class="menu__items_button menu__items_button_hover_sharred">
                     <i class="fa-solid fa-share-nodes menu__items_logo"></i>
                     <span class="menu__items_text">Sharred</span>
                 </button>
-                <button class="menu__items_button">
-                    <i class="fa-solid fa-share-nodes menu__item_logo"></i>
+                <button class="menu__items_button menu__items_button_hover_deleted">
+                    <i class="fa-solid fa-trash-can menu__items_logo"></i>
                     <span class="menu__items_text">Deleted</span>
                 </button>
                 
                 
             </div>
+            <div class="menu__footer">
+                <img class="menu__footer_image" src="C:\Users\kirya\OneDrive\Documents\GitHub\firstLayour\layout\img\Rectangle 28.png" alt="folder">
+                <span class="menu__footer_text">75% In-use</span>
+                <progress class="menu__footer_progress" value="600" max="800"></progress>
+                <span class="menu__footer_progress-text text_blue">600GB</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="menu__footer_progress-text text_grey">800GB</span>
+                <button class="menu__footer_button"><span class="menu__footer_button-text">Upgrade</span></button>
+            </div>
+
         </div>
         
         <div class="main-screen">
@@ -65,5 +73,7 @@
         </div>
     </div>
     <script src="https://kit.fontawesome.com/4d34f4c6b7.js" crossorigin="anonymous"></script>
+    
+    
 </body>
 </html>

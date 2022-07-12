@@ -114,7 +114,7 @@
     margin-left: 38px;
     margin-top: 43px;
 }
-.menu_logo {
+.menu__logo {
     height: 28px;
     width: 142px;
     margin-bottom: 81px;
@@ -134,11 +134,80 @@
     margin-left: 12px;
     font-size: 24px;
     font-weight: 500;
-
     font-family: Poppins;
 }
 .menu__items_logo {
     font-size: 20px;
+}
+.menu__footer {
+    height: 270px;
+    width: 182px;
+    background-color: white;
+    box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 38px 24px 38px 38px;
+}
+
+.menu__footer_text {
+
+    font-family: Poppins;
+    font-size: 16px;
+    color: #051F61;
+    font-weight: 500;
+}
+.menu__footer_progress {
+    width: 100%;
+    margin-top: 12px;
+    
+}
+
+.menu__footer_progress-text {
+    font-weight: 400;
+    font-family: Poppins;
+    font-size: 12px;
+}
+.text_blue {
+    color: #051F61;
+}
+.text_grey {
+    color: #757897;
+}
+.menu__footer_button {
+    width: 100%;
+    background-color: #0061FF;
+    height: 40px;
+    margin-top: 18px;
+    border: 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu__footer_button-text {
+    color: white;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 500;
+
+}
+
+.menu__items_button_hover_home:hover {
+    color: #0061FF;
+}
+.menu__items_button_hover_myFiles:hover {
+    color: #0061FF;
+}
+.menu__items_button_hover_starred:hover {
+    color: #0061FF;
+}
+.menu__items_button_hover_files:hover {
+    color: #0061FF;
+}
+.menu__items_button_hover_sharred:hover {
+    color: #0061FF;
+}
+.menu__items_button_hover_deleted:hover {
+    color: #0061FF;
 }
 
 
