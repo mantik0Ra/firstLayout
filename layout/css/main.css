@@ -112,6 +112,12 @@
     }
 }
 
+@media screen and (max-width:983px) {
+    .container {
+        height: 100%;
+    }
+}
+
 
 @media screen and (max-width:970px) {
 
@@ -486,6 +492,16 @@
     font-weight: 500;
     font-size: 13px;
 }
+
+@media screen and (max-width:472px) {
+    .main {
+        margin-left: 20px;
+    }
+    .main__container {
+        margin-right: 20px;
+    }
+}
+
 
 
 
